@@ -10,6 +10,9 @@
 	font-weight: bold;
 	src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
 }
+.nav {
+	background-color: #efefef;
+}
 .nav a {
 	color: #5a5a5a;
 	font-size: 11px
@@ -35,38 +38,102 @@
 	font-weight: bold;
 	font-family: 'Shift', sans-serif;
 }
-.jumbotron p {
-	color: #fff;
-	font-size: 20px;
-}
-.about-jumbotron {
-	height: 500px;
-	background: url('http://www.careerealism.com/wp-content/uploads/2011/10/company-culture-research.jpg') no-repeat;
-	background-size: 100%
-}
-.about-jumbotron .container {
-	position: relative;
-	top: 100px;
-}
-.about-jumbotron h1 {
-	color: #fff;
-	font-size: 68px;
-	font-weight: bold;
-	font-family: 'Shift', sans-serif;
-}
-.about-jumbotron p {
+.jumbotron .container p {
 	color: #fff;
 	font-size: 20px;
 }
 .learn-more {
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 .learn-more h3 {
-	font-family: 'Shifty', sans-serif;
+	font-family: 'Shift', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 }
 .learn-more a {
 	color: #00b0ff;
 }
+.mission {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 20px;
+}
+.mission-statement h2 {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.who-we-are h2 {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.about {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 20px;
+}
+.about-scottmitchell h2 {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.contact {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 20px;
+}
+.contact-us h2 {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.contact-name {
+	margin-bottom: 5px;
+	padding-right: 10px;
+}
+.contact-email {
+	margin-bottom: 5px;
+	padding-right: 10px;
+}
+.contact-subject {
+	margin-bottom: 5px;
+	padding-right: 10px;
+}
+.contact-message {
+	margin-bottom: 5px;
+	padding-right: 10px;
+}
+.signup-form {
+	background: #fff;
+	width: 368px;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 1;
+	border: 1px solid #dbdbdb;
+	height: 44px;
+	-webkit-appearance: none;
 
+}
+.signup .container p {
+	text-align: center;
+}
+.signup {
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #efefef;
+}
+.signup-form-select {
+	background: #fff;
+	width: 368px;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 1;
+	border: 1px solid #dbdbdb;
+	height: 44px;
+	-webkit-appearance: none;
+}
+.submit-button p {
+	text-align: center;
+}
