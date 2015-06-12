@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Shift';
+    font-style: normal;
+	font-weight: normal;
+	src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+	font-family: 'Shift';
+	font-style: normal;
+	font-weight: bold;
+	src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+.nav li {
+	display: inline;
+}
+.jumbotron {
+	height: 500px;
+	background: url('http://totalsportscomplex.com/wp-content/uploads/2014/09/baseball-pic.jpg') no-repeat;
+	background-size: 100%;
+}
+.jumbotron container {
+	position: relative;
+	top: 100px;
+}
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.jumbotron p {
+	color: #fff;
+	font-size: 20px;
+}
+.learn-more {
+	background-color: #f7f7f7;
+}
+.learn-more h3 {
+	font-family: 'Shifty', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.learn-more a {
+	color: #00b0ff;
+}
+
