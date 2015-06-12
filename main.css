@@ -25,17 +25,36 @@
 	background: url('http://totalsportscomplex.com/wp-content/uploads/2014/09/baseball-pic.jpg') no-repeat;
 	background-size: 100%;
 }
-.jumbotron container {
+.jumbotron .container {
 	position: relative;
 	top: 100px;
 }
-.jumbotron h1 {
+.jumbotron .container h1 {
 	color: #fff;
-	font-size: 48px;
+	font-size: 68px;
 	font-weight: bold;
 	font-family: 'Shift', sans-serif;
 }
 .jumbotron p {
+	color: #fff;
+	font-size: 20px;
+}
+.about-jumbotron {
+	height: 500px;
+	background: url('http://www.careerealism.com/wp-content/uploads/2011/10/company-culture-research.jpg') no-repeat;
+	background-size: 100%
+}
+.about-jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+.about-jumbotron h1 {
+	color: #fff;
+	font-size: 68px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+.about-jumbotron p {
 	color: #fff;
 	font-size: 20px;
 }
